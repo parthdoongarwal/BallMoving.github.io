@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>select leavel</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="hidden" id="menu">
+      <h1 id="rules-h1">Rules</h1>
+      <p>
+        You have to click the ball as you click's the ball it changes it's
+        location and you have a time limit of 60 sec
+      </p>
+    </div>
+
+    <div id="menu-icon" onclick="showMenu()"></div>
+
+    <div id="con1">
+      <h1 id="heading">Welcome to random ball game</h1>
+
+      <div id="btn-con">
+        <button class="btn noob">
+          <a href="gameScreen.html" onclick="(speed(2000))">Noob</a>
+        </button>
+        <button class="btn inter" onclick="speed(1000)">
+          <a href="gameScreen.html">Intermediat</a>
+        </button>
+        <button class="btn pro" onclick="speed(800)">
+          <a href="gameScreen.html">Pro</a>
+        </button>
+        <button class="btn god" onclick="speed(500)">
+          <a href="gameScreen.html">God</a>
+        </button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
