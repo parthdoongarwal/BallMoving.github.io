@@ -13,7 +13,7 @@ function speed(spee) {
 }
 
 function revel() {
-  let sec = 10;
+  let sec = 4;
   startak();
   const timer1 = setInterval(() => {
     timerConTimerText.textContent = sec;
